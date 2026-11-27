@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block content %}<h1>Editar livro</h1><form method="POST"><label>Título</label><input name="titulo" value="{{ livro.titulo }}" required><label>Autor</label><input name="autor" value="{{ livro.autor }}" required><button>Salvar</button></form>{% endblock %}
